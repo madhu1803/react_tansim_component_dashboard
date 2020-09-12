@@ -37,9 +37,15 @@ code {
   color: yellow;
 }
 
+/* outline header */
+.outline-header {
+  cursor: pointer;
+}
+
 /* CRcard.js */
 .cr-card {
   border: none !important;
+  cursor: pointer;
 }
 
 .cr-card .circle-icon {
@@ -49,4 +55,14 @@ code {
 .cr-card .btn {
   font-size: 11px;
   margin: 4px;
+}
+
+/* hcard */
+.hcard {
+  cursor: pointer;
+}
+
+.hcard .icon {
+  font-size: 18px;
+  margin-right: 5px;
 }
