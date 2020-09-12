@@ -22,7 +22,7 @@ code {
   margin: 50px;
 }
 
-/* sidelist */
+/* sidelist.js */
 .list-group-item {
   border: none !important;
   cursor: pointer;
@@ -35,4 +35,18 @@ code {
 
 .flag-icon {
   color: yellow;
+}
+
+/* CRcard.js */
+.cr-card {
+  border: none !important;
+}
+
+.cr-card .circle-icon {
+  font-size: 30px;
+}
+
+.cr-card .btn {
+  font-size: 11px;
+  margin: 4px;
 }

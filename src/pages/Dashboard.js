@@ -4,7 +4,7 @@ import Dalert from "../components/Dalert";
 import OutlineHeader from "../components/OutlineHeader";
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
-
+import CRcard from "../components/CRcard";
 export default class Dahboard extends Component {
   render() {
     return (
@@ -17,6 +17,20 @@ export default class Dahboard extends Component {
           <div className="row">
             <div className="col-lg-8">
               <OutlineHeader title="connection request" />
+              <div className="row">
+                <div className="col-lg-4">
+                  <CRcard isShadow={true} />
+                </div>
+                <div className="col-lg-4">
+                  <CRcard />
+                </div>
+                <div className="col-lg-4">
+                  <CRcard />
+                </div>
+                <div className="col-lg-4">
+                  <CRcard />
+                </div>
+              </div>
             </div>
             <div className="col-lg-4">
               <Sidebar />
