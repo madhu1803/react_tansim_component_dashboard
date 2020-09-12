@@ -80,27 +80,6 @@ export default class Dahboard extends Component {
                   subtext="AWS User Group - chennai"
                   time="starts at 6.30 p.m."
                 />
-                <Ecard
-                  title="14 Friday"
-                  subtitle="September 2019"
-                  text="UI/UX Experience ep 1"
-                  subtext="AWS User Group - chennai"
-                  time="starts at 6.30 p.m."
-                />
-                <Ecard
-                  title="14 Friday"
-                  subtitle="September 2019"
-                  text="UI/UX Experience ep 1"
-                  subtext="AWS User Group - chennai"
-                  time="starts at 6.30 p.m."
-                />
-                <Ecard
-                  title="14 Friday"
-                  subtitle="September 2019"
-                  text="UI/UX Experience ep 1"
-                  subtext="AWS User Group - chennai"
-                  time="starts at 6.30 p.m."
-                />
               </div>
               <OutlineHeader title="deals list" />
               <Hcard isShadow={true} />
