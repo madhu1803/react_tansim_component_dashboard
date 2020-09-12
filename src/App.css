@@ -57,6 +57,23 @@ code {
   margin: 4px;
 }
 
+/* ecard */
+.card-container {
+  border: none !important;
+}
+
+.card-container.card2 .card2-title {
+  border-left: 3px solid red;
+  /* font-size: 30px; */
+}
+
+.card-container.card2 .main-text {
+  padding-top: 80px;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  margin-bottom: 2px !important;
+}
+
 /* hcard */
 .hcard {
   cursor: pointer;
