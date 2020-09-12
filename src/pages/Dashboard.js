@@ -18,21 +18,21 @@ export default class Dahboard extends Component {
             <div className="col-lg-8">
               <OutlineHeader title="connection request" />
               <div className="row">
-                <div className="col-lg-4">
+                <div className="col-md-6 col-lg-4">
                   <CRcard isShadow={true} />
                 </div>
-                <div className="col-lg-4">
+                <div className="col-md-6 col-lg-4">
                   <CRcard />
                 </div>
-                <div className="col-lg-4">
+                <div className="col-md-6 col-lg-4">
                   <CRcard />
                 </div>
-                <div className="col-lg-4">
+                <div className="col-md-6 col-lg-4">
                   <CRcard />
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 d-none d-lg-block">
               <Sidebar />
             </div>
           </div>
